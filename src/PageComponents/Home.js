@@ -7,6 +7,7 @@ const Home = () => {
         <>
           <HeaderNav />
         <Outlet />
+        
         </>
     );
    

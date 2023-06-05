@@ -40,9 +40,48 @@
   background-color: aqua;
 }
 .sec-text{
+
   text-align: center;
+ 
   
 }
 .active{
   color: #61dafb;
+}
+.search{
+text-align: center;
+margin-top: 90px;
+box-shadow:  solid #c4755d ;
+}
+.search-input{
+  margin: 30px 0;
+  padding:  5px 10px;
+  border-radius: 10px solid;
+  box-shadow: #282c34;
+  border-radius: 5% ;
+}
+ul {
+  list-style-type: none;
+  margin: 5;
+  padding: 2;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+ 
+}
+
+.pk{
+  display: block;
+  color: white;
+  text-align: center;
+  padding:20px 120px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li {
+  background-color: #111;
 }

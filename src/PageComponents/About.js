@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import HeaderNav from "../HeaderComponent/HeaderNav";
 const About = () =>{
 
     const navigate = useNavigate();
@@ -8,6 +9,7 @@ const About = () =>{
     }
     return(
         <>
+          <HeaderNav />
             <section className="sec-text" >
                 <h1>About Page</h1>
                 <button onClick={()=>goToHome()}>Go To Home Page</button>
